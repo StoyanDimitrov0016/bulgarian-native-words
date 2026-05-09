@@ -1,4 +1,4 @@
-import type { SortDirection } from "@/components/word-search";
+import type { SortDirection } from "@/data/sort-direction";
 
 type SearchControlsProps = {
   placeholder: string;
@@ -16,37 +16,49 @@ export function SearchControls({
   sortDirection,
 }: SearchControlsProps) {
   return (
-    <div className="grid gap-2 sm:grid-cols-[1fr_auto] sm:items-end">
-      <label className="grid gap-1">
-        <span className="text-xs font-medium text-stone-700">Търсене</span>
-        <input
-          className="h-9 w-full rounded-md border border-stone-300 bg-white px-3 text-sm text-stone-950 outline-none transition placeholder:text-stone-400 focus:border-stone-500 focus:ring-2 focus:ring-stone-200"
-          onChange={(event) => setQuery(event.target.value)}
-          placeholder={placeholder}
-          type="search"
-          value={query}
-        />
+    <div className="grid gap-3 sm:grid-cols-[1fr_auto] sm:items-end">
+      <label className="grid gap-1.5">
+        <span className="font-sans text-[11px] font-medium uppercase tracking-widest text-ink-muted">
+          Търсене
+        </span>
+        <div className="relative">
+          <svg
+            className="pointer-events-none absolute left-2.5 top-1/2 size-4 -translate-y-1/2 text-ink-faint"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth={1.75}
+            viewBox="0 0 24 24"
+            aria-hidden="true"
+          >
+            <circle cx="11" cy="11" r="8" />
+            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+          </svg>
+          <input
+            className="h-10 w-full rounded-lg border border-border bg-parchment-card pl-9 pr-3 font-serif text-[15px] text-ink placeholder:text-ink-faint focus:border-accent focus:ring-3 focus:ring-accent/15 focus:outline-none transition"
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder={placeholder}
+            type="search"
+            value={query}
+          />
+        </div>
       </label>
 
-      <div className="grid gap-1">
-        <p className="text-xs font-medium text-stone-700">Подредба</p>
-        <div className="grid h-9 grid-cols-2 rounded-md border border-stone-300 bg-white p-0.5 sm:w-28">
-          <button
-            aria-pressed={sortDirection === "asc"}
-            className="rounded-sm px-2 text-xs font-medium text-stone-600 transition hover:text-stone-950 aria-pressed:bg-stone-900 aria-pressed:text-white"
-            onClick={() => setSortDirection("asc")}
-            type="button"
-          >
-            А-Я
-          </button>
-          <button
-            aria-pressed={sortDirection === "desc"}
-            className="rounded-sm px-2 text-xs font-medium text-stone-600 transition hover:text-stone-950 aria-pressed:bg-stone-900 aria-pressed:text-white"
-            onClick={() => setSortDirection("desc")}
-            type="button"
-          >
-            Я-А
-          </button>
+      <div className="grid gap-1.5">
+        <p className="font-sans text-[11px] font-medium uppercase tracking-widest text-ink-muted">
+          Подредба
+        </p>
+        <div className="grid h-10 w-28 grid-cols-2 gap-0.5 rounded-lg border border-border bg-parchment-card p-0.5">
+          {(["asc", "desc"] as const).map((dir) => (
+            <button
+              key={dir}
+              aria-pressed={sortDirection === dir}
+              onClick={() => setSortDirection(dir)}
+              type="button"
+              className="rounded-md font-sans text-xs font-medium transition aria-pressed:bg-ink aria-pressed:text-parchment text-ink-muted hover:text-ink cursor-pointer"
+            >
+              {dir === "asc" ? "А-Я" : "Я-А"}
+            </button>
+          ))}
         </div>
       </div>
     </div>

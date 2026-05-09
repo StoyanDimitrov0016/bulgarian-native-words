@@ -3,21 +3,27 @@ import { words } from "@/data/words";
 
 export default function Home() {
   return (
-    <main className="min-h-screen bg-stone-50 text-stone-950">
-      <section className="mx-auto flex w-full max-w-5xl flex-col gap-6 px-4 py-5 sm:px-6 sm:py-7 lg:px-8 lg:py-8">
+    <main className="min-h-screen bg-parchment">
+      <div className="h-[3px] bg-accent" />
+
+      <section className="mx-auto flex w-full max-w-5xl flex-col gap-8 px-4 pt-5 pb-8 sm:px-6 sm:pt-6 sm:pb-10 lg:px-8 lg:pt-7 lg:pb-12">
         <header className="max-w-3xl">
-          <h1 className="text-3xl font-semibold leading-tight tracking-tight sm:text-4xl">
+          <h1 className="font-display text-4xl font-bold tracking-tight text-ink sm:text-5xl">
             Родна Реч
           </h1>
-          <p className="mt-3 max-w-2xl text-base leading-7 text-stone-700 sm:text-lg">
-            Опит да събера по-точни, по-родни или просто любопитни думи,
-            които могат да стоят на мястото на навлезли английски и чужди
-            изрази.
+          <div className="mt-3 mb-4 h-0.5 w-12 rounded bg-forest" />
+          <p className="font-serif text-lg italic leading-relaxed text-ink-muted sm:text-xl">
+            Опит да събера по-точни, по-родни или просто любопитни думи, които
+            могат да стоят на мястото на навлезли английски и чужди изрази.
           </p>
         </header>
 
         <WordSearch words={words} />
       </section>
+
+      <footer className="border-t border-border-light px-8 py-6 text-center font-sans text-[11px] uppercase tracking-widest text-ink-faint">
+        Родна Реч
+      </footer>
     </main>
   );
 }

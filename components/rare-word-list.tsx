@@ -5,30 +5,34 @@ type RareWordListProps = {
 };
 
 export function RareWordList({ words }: RareWordListProps) {
-  if (words.length === 0) {
-    return null;
-  }
+  if (words.length === 0) return null;
 
   return (
-    <section className="grid gap-2">
-      <h2 className="text-base font-semibold text-stone-950">
-        Редки и необикновени думи
-      </h2>
-      <div className="overflow-hidden rounded-lg border border-stone-200 bg-white shadow-sm">
-        <ol className="divide-y divide-stone-200">
+    <section className="grid gap-3">
+      <div className="flex items-center gap-2.5">
+        <span className="font-display text-lg text-accent" aria-hidden="true">
+          ✦
+        </span>
+        <h2 className="font-display text-lg font-semibold tracking-tight text-ink">
+          Редки и необикновени думи
+        </h2>
+      </div>
+
+      <div className="overflow-hidden rounded-xl border border-border bg-parchment-card shadow-sm">
+        <ol className="divide-y divide-border-light">
           {words.map((word, index) => (
             <li
-              className="grid gap-1 px-4 py-3"
               key={`${word.borrowed.join("-")}-${index}`}
+              className="grid gap-1 px-5 py-3.5 transition hover:bg-border/10"
             >
-              <p className="break-words text-base font-semibold leading-6 text-stone-950">
+              <p className="wrap-break-word font-serif text-[17px] font-semibold leading-snug text-ink">
                 {word.borrowed.join(", ")}
               </p>
-              {word.note ? (
-                <p className="break-words text-sm leading-6 text-stone-600">
+              {word.note && (
+                <p className="wrap-break-word font-serif text-[15px] italic leading-relaxed text-ink-muted">
                   {word.note}
                 </p>
-              ) : null}
+              )}
             </li>
           ))}
         </ol>
