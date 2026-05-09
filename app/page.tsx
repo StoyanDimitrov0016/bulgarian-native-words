@@ -22,7 +22,18 @@ export default function Home() {
       </section>
 
       <footer className="border-t border-border-light px-8 py-6 text-center font-sans text-[11px] uppercase tracking-widest text-ink-faint">
-        Родна Реч
+        <code className="rounded border border-border-light bg-parchment-card px-1.5 py-0.5 normal-case tracking-normal">
+          {"<"}
+          <a
+            className="transition hover:text-ink"
+            href="https://github.com/StoyanDimitrov0016/bulgarian-native-words"
+            rel="noreferrer"
+            target="_blank"
+          >
+            GitHub
+          </a>
+          {" />"}
+        </code>
       </footer>
     </main>
   );

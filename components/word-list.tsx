@@ -8,8 +8,8 @@ export function WordList({ words }: WordListProps) {
   if (words.length === 0) return null;
 
   return (
-    <div className="overflow-hidden rounded-xl border border-border bg-parchment-card shadow-sm">
-      <div className="hidden grid-cols-2 border-b border-border-light bg-parchment-dark px-5 py-2 md:grid">
+    <div className="word-list-scroll max-h-[58vh] overflow-y-auto rounded-xl border border-border bg-parchment-card shadow-sm md:max-h-[62vh]">
+      <div className="sticky top-0 z-10 hidden grid-cols-2 border-b border-border-light bg-parchment-dark px-5 py-2 md:grid">
         {["Навлязла дума", "Родна дума"].map((label) => (
           <p
             key={label}
