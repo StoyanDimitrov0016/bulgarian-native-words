@@ -1,3 +1,4 @@
+import { WordSuggestionCard } from "@/components/word-suggestion-card";
 import { WordSearch } from "@/components/word-search";
 import { words } from "@/data/words";
 
@@ -19,6 +20,7 @@ export default function Home() {
         </header>
 
         <WordSearch words={words} />
+        <WordSuggestionCard />
       </section>
 
       <footer className="border-t border-border-light px-8 py-6 text-center font-sans text-[11px] uppercase tracking-widest text-ink-faint">
