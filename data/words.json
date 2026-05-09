@@ -1,0 +1,742 @@
+[
+  {
+    "borrowed": ["система"],
+    "alternatives": ["взаимовръзка", "уредба"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["продукт"],
+    "alternatives": ["изделия"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["мото", "слоган"],
+    "alternatives": ["послание"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["легитимно"],
+    "alternatives": ["достоверно"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["компютър"],
+    "alternatives": ["сметачник"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["кола", "автомобил"],
+    "alternatives": ["возило"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["резерв"],
+    "alternatives": ["запас"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["контекст"],
+    "alternatives": ["пояснение"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["контейнер"],
+    "alternatives": ["съдържател"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["егоизъм", "нарцисизъм"],
+    "alternatives": ["себелюбие"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["фен"],
+    "alternatives": ["почитател", "привърженици"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["перфектно"],
+    "alternatives": ["отлично"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["контент"],
+    "alternatives": ["съдържание"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["ефорт"],
+    "alternatives": ["усилие"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["интересно"],
+    "alternatives": ["увлекателно"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["адаш"],
+    "alternatives": ["съименник"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["нормално"],
+    "alternatives": ["обикновено", "обичайно"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["странно"],
+    "alternatives": ["необикновено"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["премиум"],
+    "alternatives": ["горница", "добавка", "надбавка"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["информация"],
+    "alternatives": ["знание"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["култура"],
+    "alternatives": ["образование"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["позитивно"],
+    "alternatives": ["положително"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["негативно"],
+    "alternatives": ["отрицателно"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["контрол"],
+    "alternatives": ["управление"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["блокиране"],
+    "alternatives": ["забраняване", "препречване"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["фън"],
+    "alternatives": ["забавление"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["евентуално"],
+    "alternatives": ["възможно"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["контакт"],
+    "alternatives": ["допир", "досег"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["комфортно"],
+    "alternatives": ["удобно"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["реално"],
+    "alternatives": ["истински", "действително"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["дирекция"],
+    "alternatives": ["посока", "направление"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["атака"],
+    "alternatives": ["нападение"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["бодигард"],
+    "alternatives": ["телохранител"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["солидно"],
+    "alternatives": ["плътно"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["фундамент"],
+    "alternatives": ["основа"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["грандиозен"],
+    "alternatives": ["огромно"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["колосално"],
+    "alternatives": ["огромно"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["микс"],
+    "alternatives": ["смес"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["химикал"],
+    "alternatives": ["писалка"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["креативност"],
+    "alternatives": ["изобретателност"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["енергия"],
+    "alternatives": ["сила"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["тип", "типаж", "сорт"],
+    "alternatives": ["вид"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["етап", "левел"],
+    "alternatives": ["ниво", "равнище"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["характер"],
+    "alternatives": ["нрав", "отличителни знаци/качества"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["експлоатация"],
+    "alternatives": ["употреба"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["шофьор"],
+    "alternatives": ["водач"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["шеф", "бос"],
+    "alternatives": ["началник"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["пасажер"],
+    "alternatives": ["пътник"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["боклук"],
+    "alternatives": ["отпадък"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["константа"],
+    "alternatives": ["постоянство"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["опаковка"],
+    "alternatives": ["обвивка"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["дехидратация"],
+    "alternatives": ["обезводняване"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["хидратиране"],
+    "alternatives": ["напояване", "водопой"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["тренд"],
+    "alternatives": ["движение", "новост", "мода"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["новина"],
+    "alternatives": ["вест"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["инвестиране"],
+    "alternatives": ["вложение"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["тийм", "екип"],
+    "alternatives": ["отбор"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["натурален"],
+    "alternatives": ["природен", "природосъобразен"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["екологичен"],
+    "alternatives": ["природосъобразен"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["колоритен"],
+    "alternatives": ["цветен", "отличителен"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["зона", "територия"],
+    "alternatives": ["място", "площ", "област", "околност"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["деструктивно"],
+    "alternatives": ["разрушително"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["еквивалентно"],
+    "alternatives": ["равносилно", "равностойно", "еднакво", "равно"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["диета"],
+    "alternatives": ["хранителен режим"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["стриктно"],
+    "alternatives": ["строго"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["баланс"],
+    "alternatives": ["равновесие"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["дефицит"],
+    "alternatives": ["недостиг"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["метод"],
+    "alternatives": ["начин"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["продуктивност"],
+    "alternatives": ["ефикасност"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["шопинг"],
+    "alternatives": ["пазаруване", "купуване"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["аксесоари"],
+    "alternatives": ["накити", "притурки", "украшения"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["апликация"],
+    "alternatives": ["приложение"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["рекордър"],
+    "alternatives": ["записвач"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["фит"],
+    "alternatives": ["строен"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["оптимизация"],
+    "alternatives": ["подобрение"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["мениджмънт"],
+    "alternatives": ["управление"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["мениджър"],
+    "alternatives": ["управител"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["кухня"],
+    "alternatives": ["готварница"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["хигиена"],
+    "alternatives": ["чистота"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["регулярно"],
+    "alternatives": [
+      "постоянно",
+      "ежедневно",
+      "често",
+      "редовно",
+      "посредствен",
+      "среден"
+    ],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["процент"],
+    "alternatives": ["стотна"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["промил"],
+    "alternatives": ["хилядна"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["талантлив"],
+    "alternatives": ["надарен", "даровит"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["аматьор"],
+    "alternatives": ["любител"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["set up"],
+    "alternatives": ["постановка", "установка"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["NPC"],
+    "alternatives": ["безличен човек"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["съпорт"],
+    "alternatives": ["подкрепа"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["локация"],
+    "alternatives": ["местоположение", "местонахождение"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["колега"],
+    "alternatives": ["сътрудник"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["партньор"],
+    "alternatives": ["съдружник", "ортак"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["компания", "фирма"],
+    "alternatives": ["дружество"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["bias"],
+    "alternatives": ["уклон", "пристрастие"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["логично", "адекватно"],
+    "alternatives": ["разумно"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["анализ"],
+    "alternatives": ["тълкуване"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["еталон", "стандарт"],
+    "alternatives": ["образец"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["магазин и пазар"],
+    "alternatives": ["тържище"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["sustainable"],
+    "alternatives": ["устойчиво", "поносимо (да можеш да го понесеш)"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["емблематичен"],
+    "alternatives": ["бележит", "отличителен"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["пасив"],
+    "alternatives": ["бреме"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["актив"],
+    "alternatives": ["придобивка?"],
+    "status": "draft",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["форма", "фасада", "физиономия"],
+    "alternatives": ["облик"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["ефект", "феномен"],
+    "alternatives": ["проявление"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["пионер"],
+    "alternatives": ["първопроходец"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["прототип"],
+    "alternatives": ["първообраз"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["мониторинг"],
+    "alternatives": ["наблюдение", "съблюдение"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["игнорирам"],
+    "alternatives": ["пренебрегвам"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["адаптирам"],
+    "alternatives": ["нагодявам", "пригодявам", "нагаждам", "приспособявам"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["доминантност"],
+    "alternatives": ["надмощие"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["рант"],
+    "alternatives": ["изказване"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["канализиране"],
+    "alternatives": ["упътване"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["сиромахомилство"],
+    "alternatives": [],
+    "status": "draft",
+    "category": "rare",
+    "note": "Странна или рядка дума за отделен преглед."
+  },
+  {
+    "borrowed": ["термин"],
+    "alternatives": ["понятие"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["характеристика"],
+    "alternatives": ["особеност"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["хотел"],
+    "alternatives": ["хан"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["такса"],
+    "alternatives": ["данък"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["парализа"],
+    "alternatives": ["обездвижване"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["рандом"],
+    "alternatives": ["произволен", "случаен"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["парламент"],
+    "alternatives": ["народно събрание"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["президент"],
+    "alternatives": ["народен глава"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["демокрация"],
+    "alternatives": ["народовластие"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["парти"],
+    "alternatives": ["веселба"],
+    "status": "reviewed",
+    "category": "alternative"
+  },
+  {
+    "borrowed": ["ситуация"],
+    "alternatives": ["обстановка"],
+    "status": "reviewed",
+    "category": "alternative"
+  }
+]
