@@ -252,8 +252,8 @@
     "category": "alternative"
   },
   {
-    "borrowed": ["етап", "левел"],
-    "alternatives": ["ниво", "равнище"],
+    "borrowed": ["етаж", "ниво", "левел"],
+    "alternatives": ["равнище"],
     "status": "reviewed",
     "category": "alternative"
   },
@@ -420,8 +420,8 @@
     "category": "alternative"
   },
   {
-    "borrowed": ["аксесоари"],
-    "alternatives": ["накити", "притурки", "украшения"],
+    "borrowed": ["аксесоари", "накити"],
+    "alternatives": ["украшения", "притурки"],
     "status": "reviewed",
     "category": "alternative"
   },
@@ -542,7 +542,7 @@
   },
   {
     "borrowed": ["партньор"],
-    "alternatives": ["съдружник", "ортак"],
+    "alternatives": ["съдружник"],
     "status": "reviewed",
     "category": "alternative"
   },
